@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+:root{
+    --SnowBlue: #ACD7F2;
+    --LightBlue: #4EAEFA;
+    --LDBlue: #2F6996;
+    --MedBlue: #255276;
+    --DDBlue: #1B3C57;
+    --DarkBlue: #112636;
+    --BlackBlue: #010440;
+    --LightGreen: #038C33;
+    --DarkGreen: #044002;
+    --Yellow: #F2B705;
+    --DarkYellow: #BF7E04;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +19,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: #18929D;
+    background-color: var(--DDBlue);
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +42,7 @@ nav li{
 }
 nav li a{
     text-decoration: none;
-    color: #fff;
+    color: var(--SnowBlue);
     font-size: 18px;
     font-weight: 500;
     padding: 8px 15px;
@@ -39,6 +52,10 @@ nav li a{
 nav li a:hover{
     background-color: white;
     color: black;
+}
+.logohpg{
+    width: 20%;
+    padding-top: 10px;
 }
 .banner{
     height: 100vh;
@@ -51,6 +68,7 @@ nav li a:hover{
     justify-content: center;
     text-align: center;
 }
+
 .texto .titulo{
     color: #fff;
     font-size: 60px;
