@@ -109,6 +109,21 @@ nav li a:hover{
     color: black;
     animation: vibrar 0.5s ease-in-out infinite both;
 }
+
+.saiba{
+    text-decoration: none;
+    color: var(--SnowBlue);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.saiba:hover{
+    background-color: white;
+    color: var(--BlackBlue);
+}
+
 @keyframes vibrar {
     0%{
         transform: scale(1);
